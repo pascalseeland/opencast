@@ -9,6 +9,71 @@ The following list contains a list of passed proposals for reference.
 Passed Proposals
 ----------------
 
+### Closing old Pull Requests
+Proposed by Katrin Ihler <ihler@elan-ev.de>, passed on Mon, 9 Mar 2021
+
+```no-highlight
+Hi everyone,
+
+I'd like to establish a rule for closing old pull requests, since we
+have some of those lying around for quite a while and I'd like a
+guideline. I propose the following:
+
+A pull request can be closed if neither the pull request creator nor
+another person working on the PR has addressed any review findings
+within 6 months. (Note that this is optional, so we don't _have_ to do it.)
+
+A review would be considered addressed if the PR is amended or the
+finding is disputed. So a discussion would also count, but something
+like "I don't have time for this right now" wouldn't.
+
+Closing a PR doesn't constitute a rejection, it can be re-opened at any
+time once the person responsible can give it attention again.
+
+As usual, if no one objects, this proposal passes after the next 72 hours.
+
+Best regards,
+
+Katrin
+```
+
+### Release Notes
+Proposed by Greg Logan <gregorydlogan@gmail.com>, passed on Tue, 26 Jan 2021
+
+```no-highlight
+Hi all,
+
+As discussed in the dev meeting, I'm going to #propose that new features (ie,
+things that should be listed in the release notes) should create a new file
+under docs/guides/admin/releasenotes containing at least one line regarding the
+change.  At release time, rather than the release managers combing through the
+commits we can just cat the files together and have something sane.
+
+Suggested format: A single line short description, unless that description
+exceeds 120 characters, in which case multiple lines wrapping at 120.  If for
+some reason your features require a larger blurb that's ok too - this should be
+rare, so the RMs can check and move things about.  We will be checking before
+we commit the tag anyway, right? :)
+
+Short example:
+
+- My spiffy new feature, which lets Opencast run on a 386 in 64k of RAM.
+
+
+Long example:
+
+- My short description
+
+My longer feature description
+---------------------------------------
+Lorem ipsum....
+
+
+Proposal passes EOD 2021-01-26 UTC-6
+
+G
+```
+
 
 ### Release Process Update
 Proposed by Lars Kiesow <lkiesow@uos.de>, passed on Thu, 24 Dec 2020
