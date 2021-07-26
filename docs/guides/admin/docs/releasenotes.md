@@ -43,6 +43,12 @@ API changes
 - [[#2644](https://github.com/opencast/opencast/pull/2644)]: Use millisecond precision in Solr date range queries
 
 
+Additional Notes about 10.1
+---------------------------
+
+This release contains many bugfixes.  In particular, the email libraries are now working properly!
+
+
 Release Schedule
 ----------------
 

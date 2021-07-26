@@ -4,6 +4,66 @@ Changelog
 Opencast 10
 ----------
 
+### Opencast 10.1
+
+*Released on July 14th, 2021*
+
+- [[#2830](https://github.com/opencast/opencast/pull/2830)] -
+  Remove Unnecessary Error Logging
+- [[#2829](https://github.com/opencast/opencast/pull/2829)] -
+  Handle Ingest with Unavailable Media Package Element
+- [[#2827](https://github.com/opencast/opencast/pull/2827)] -
+  Transformer Factory Identification
+- [[#2816](https://github.com/opencast/opencast/pull/2816)] -
+  Remove **all** Java 8 packages in the Java upgrade guide
+- [[#2815](https://github.com/opencast/opencast/pull/2815)] -
+  Fix publication of language tagged metadata
+- [[#2813](https://github.com/opencast/opencast/pull/2813)] -
+  Don't Ask Developers to Register
+- [[#2812](https://github.com/opencast/opencast/pull/2812)] -
+  Fix Possible NullPointerException During Ingest
+- [[#2807](https://github.com/opencast/opencast/pull/2807)] -
+  Fix Prepare-AV Target Tag Handling
+- [[#2805](https://github.com/opencast/opencast/pull/2805)] -
+  Remove Harvester Configuration
+- [[#2791](https://github.com/opencast/opencast/pull/2791)] -
+  Fix Assembly Builds
+- [[#2787](https://github.com/opencast/opencast/pull/2787)] -
+  Prevent workflow from failing if we have no logs
+- [[#2776](https://github.com/opencast/opencast/pull/2776)] -
+  Fix Workflow Operation Documentation
+- [[#2768](https://github.com/opencast/opencast/pull/2768)] -
+  Fix Upgrade Documentation
+- [[#2766](https://github.com/opencast/opencast/pull/2766)] -
+  Document Opencast 10 RPM Install
+- [[#2765](https://github.com/opencast/opencast/pull/2765)] -
+  Fix Wowza Streaming Misconfiguration
+- [[#2764](https://github.com/opencast/opencast/pull/2764)] -
+  Remove Unused Dependency on Series Service
+- [[#2763](https://github.com/opencast/opencast/pull/2763)] -
+  Hello World Configuration Example
+- [[#2762](https://github.com/opencast/opencast/pull/2762)] -
+  Small additions and improvements in search service (for the upcoming Tobira module)
+- [[#2761](https://github.com/opencast/opencast/pull/2761)] -
+  Prevent Users From Modifying ICLA Workflow
+- [[#2748](https://github.com/opencast/opencast/pull/2748)] -
+  Simplify Publication Check
+- [[#2747](https://github.com/opencast/opencast/pull/2747)] -
+  Fix `jakarta.mail` Dependency Problem
+- [[#2740](https://github.com/opencast/opencast/pull/2740)] -
+  Fix Log Statements
+- [[#2724](https://github.com/opencast/opencast/pull/2724)] -
+  Remove Usertracking from Worker
+- [[#2721](https://github.com/opencast/opencast/pull/2721)] -
+  Update Admin Interface Dependencies
+- [[#2720](https://github.com/opencast/opencast/pull/2720)] -
+  Fixed admin interface tests in certain timezones
+- [[#2706](https://github.com/opencast/opencast/pull/2706)] -
+  Add Integration Tests
+- [[#2698](https://github.com/opencast/opencast/pull/2698)] -
+  Improved Error Handling
+
+
 ### Opencast 10.0
 
 *Released on June 15th, 2021*
@@ -511,6 +571,43 @@ Opencast 10
 
 Opencast 9
 ----------
+
+### Opencast 9.7
+
+*Released on July 15th, 2021*
+
+- [[#2793](https://github.com/opencast/opencast/pull/2793)] -
+  More HTML validation for AdminUI
+- [[#2790](https://github.com/opencast/opencast/pull/2790)] -
+  Fix file permissions of start-opencast
+- [[#2788](https://github.com/opencast/opencast/pull/2788)] -
+  Introduce Allinone Profile
+- [[#2778](https://github.com/opencast/opencast/pull/2778)] -
+  Cut Marks Attachments
+- [[#2771](https://github.com/opencast/opencast/pull/2771)] -
+  Documentation Deployment Conflicts
+- [[#2770](https://github.com/opencast/opencast/pull/2770)] -
+  Link Video in Installation Guide
+- [[#2736](https://github.com/opencast/opencast/pull/2736)] -
+  Fix processing of `fast` events
+- [[#2723](https://github.com/opencast/opencast/pull/2723)] -
+  Limit Ingest Filename Length
+- [[#2722](https://github.com/opencast/opencast/pull/2722)] -
+  Default for Access Control Entry Allow
+- [[#2719](https://github.com/opencast/opencast/pull/2719)] -
+  Closing tags for non-void elements in Admin UI
+- [[#2717](https://github.com/opencast/opencast/pull/2717)] -
+  Make Series Endpoint Accept Metadata Fields
+- [[#2714](https://github.com/opencast/opencast/pull/2714)] -
+  Fix pagination in engage-ui
+- [[#2710](https://github.com/opencast/opencast/pull/2710)] -
+  Recognize more input types in WF configuration
+- [[#2678](https://github.com/opencast/opencast/pull/2678)] -
+  OAI-PMH Sets
+- [[#2543](https://github.com/opencast/opencast/pull/2543)] -
+  Exclude user provider configuration for contributors list provider
+- [[#2535](https://github.com/opencast/opencast/pull/2535)] -
+  Prevent Ingests with Illegal Data
 
 ### Opencast 9.6
 
